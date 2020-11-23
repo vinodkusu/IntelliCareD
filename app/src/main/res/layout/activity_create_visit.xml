@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ui.visit.CreateVisitActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/min_padding"
+        android:paddingTop="4dp"
+        android:paddingRight="@dimen/min_padding"
+        android:paddingBottom="@dimen/main_padding">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/logo_height"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/ic_intelli_logo_normal_" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="Select visit for"
+                android:textColor="@color/primary" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/visitFor"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/edit_bg"
+                android:entries="@array/visit_for_list"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="Chief Complaint"
+                android:textColor="@color/primary" />
+
+            <androidx.appcompat.widget.AppCompatSpinner
+                android:id="@+id/complaint"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/edit_bg"
+                android:entries="@array/complaint_list"
+                android:padding="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="Blood Pressure"
+                android:textColor="@color/primary" />
+
+            <EditText
+                android:id="@+id/etBP"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/edit_bg"
+                android:digits="1234567890/"
+                android:hint="120/80"
+                android:inputType="number"
+                android:maxLength="7"
+                android:maxLines="1"
+                android:paddingLeft="12dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="Temperature °F"
+                android:textColor="@color/primary" />
+
+            <EditText
+                android:id="@+id/etTemperature"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:background="@drawable/edit_bg"
+                android:digits="0123456789."
+                android:hint="98.6"
+                android:inputType="numberDecimal"
+                android:maxLength="5"
+                android:maxLines="1"
+                android:paddingLeft="12dp"
+                android:paddingTop="4dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="Patient Photo"
+                android:textColor="@color/primary" />
+
+            <ImageView
+                android:id="@+id/ivPatientPhoto"
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="0.35"
+                android:background="@drawable/edit_bg"
+                android:padding="20dp"
+                android:src="@drawable/ic_camera" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="0.3" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnStartVisit"
+            style="@style/AppTheme.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="24dp"
+            android:enabled="false"
+            android:paddingLeft="36dp"
+            android:paddingRight="36dp"
+            android:text="@string/start_visit"
+            android:textSize="16sp" />
+    </LinearLayout>
+</ScrollView>

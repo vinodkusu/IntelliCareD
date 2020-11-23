@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- normal usage colors -->
+    <color name="menu_blue">#2980B9</color>
+    <color name="menu_green_dark">#0F9848</color>
+    <color name="menu_separator">#3F8DC0</color>
+    <color name="transparent">#00000000</color>
+    <color name="grey">#808080</color>
+    <color name="light_grey">#CCCCCC</color>
+    <color name="very_light_grey">#EEEEEE</color>
+    <color name="dark_grey">#444444</color>
+    <color name="very_dark_grey">#222222</color>
+    <color name="very_light_pink">#FADFDF</color>
+    <color name="very_light_green">#DFFADF</color>
+    <color name="semi_transparent">#66000000</color>
+
+    <!-- Theme colors -->
+    <!--<color name="primary">#FF27AE60</color>
+    <color name="primary_dark">#FF0F9848</color>
+    <color name="accent">#FFFFFFFF</color>-->
+
+
+    <!-- Theme colors -->
+    <color name="primary">#08376B</color>
+    <color name="primary_dark">#08376B</color>
+    <color name="accent">#FFFFFFFF</color>
+
+    <color name="secondary">#08376B</color>
+    <color name="secondary_dark">#08376B</color>
+    <color name="secondary_accent">#08376B</color>
+    <color name="intelli_pale_green">#998822</color>
+
+    <!--    Agora colors-->
+    <color name="localBackground">#827b92</color>
+    <color name="remoteBackground">#484258</color>
+
+
+    <!-- Tab colors -->
+    <color name="background_tab_pressed">#CCCCCC</color>
+    <color name="pink">#FF7898</color>
+
+    <!-- shape colors -->
+    <color name="shape_green">#FF27AE60</color>
+    <color name="shape_blue">#FF2980B9</color>
+    <color name="shape_white">#FFFFFFFF</color>
+
+
+    <!-- new colors -->
+    <!-- login -->
+    <color name="bg_green">#27AE60</color>
+    <color name="separator_green">#239B55</color>
+    <color name="edit_field_text_color">#666666</color>
+    <color name="edit_field_border_color">#239B55</color>
+
+    <!-- queue -->
+    <color name="queue_pink">#f2dede</color>
+    <color name="queue_light_green">#dff0d8</color>
+    <color name="queue_divider">#dddddd</color>
+    <color name="queue_text_dark">#373737</color>
+    <color name="queue_text_light">#888888</color>
+    <color name="queue_tab_blue">#2980b9</color>
+    <color name="queue_tab_indicator">#66b4e7</color>
+    <color name="queue_start_green">#60b760</color>
+    <color name="queue_start_border">#4fac50</color>
+    <color name="queue_reject_border">#cccccc</color>
+    <color name="queue_sort_divider">#20a759</color>
+    <color name="queue_expand_grey">#f4f4f4</color>
+    <color name="queue_assigned_blue">#468cc8</color>
+    <color name="queue_assigned_border">#397fba</color>
+    <color name="light_blue_600">#FF039BE5</color>
+    <color name="light_blue_900">#FF01579B</color>
+    <color name="light_blue_A200">#FF40C4FF</color>
+    <color name="light_blue_A400">#FF00B0FF</color>
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Image Picker colors  -->
+    <color name="ucrop_color_toolbar">@color/teal_200</color>
+    <color name="ucrop_color_statusbar">@color/teal_700</color>
+    <color name="ucrop_color_widget_active">@color/teal_200</color>
+
+</resources>

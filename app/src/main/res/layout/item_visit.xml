@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="5dp"
+    android:foregroundTint="@color/teal_200"
+    app:cardBackgroundColor="#EEEEEE"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    tools:showIn="@layout/activity_past_visits">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="4dp">
+
+        <TextView
+            android:id="@+id/dateTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Visit time: 15-Nov-2020 05:30PM"
+            android:textColor="@color/bg_green"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/primary"
+            android:textStyle="bold"
+            tools:text="Doctor Name: Dr.Patrick" />
+
+        <TextView
+            android:id="@+id/notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/primary"
+            tools:text="Sample notes for this visit goes here" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
