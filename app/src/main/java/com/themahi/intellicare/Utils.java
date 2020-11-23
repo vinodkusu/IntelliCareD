@@ -18,13 +18,7 @@ public static void toastLong(String msg, Context c) {
     }
 
 public static void toastSample(String msg, Context c) {
-<<<<<<< HEAD
-        if (!TextUtils.isEmpty(msg) && c != null) {
-            Toast.makeText(c, "sample", Toast.LENGTH_SHORT).show();
-        }
-=======
-            Toast.makeText(c, "sample", Toast.LENGTH_SHORT).show();
->>>>>>> sample
+Toast.makeText(c, "sample", Toast.LENGTH_SHORT).show();
     }
 
 }
