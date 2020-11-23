@@ -16,4 +16,9 @@ public static void toastLong(String msg, Context c) {
             Toast.makeText(c, msg, Toast.LENGTH_LENGTH).show();
         }
     }
+
+public static void toastSample(String msg, Context c) {
+            Toast.makeText(c, "sample", Toast.LENGTH_SHORT).show();
+    }
+
 }
