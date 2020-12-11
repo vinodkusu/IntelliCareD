@@ -15,13 +15,14 @@ class ImageViewModel : ViewModel() {
     lateinit var imageDataLD: LiveData<ResponseBody?>
 
     fun getImageLiveData(): LiveData<ResponseBody?> {
+        imageData = MutableLiveData<ResponseBody?>()
+        imageDataLD = imageData;
         getImage()
         return imageDataLD
     }
 
-    fun getImage() {
+    private fun getImage() {
         viewModelScope.launch {
-            imageData = MutableLiveData<ResponseBody?>()
             imageData.postValue(ImageWorker.getFile())
         }
     }
