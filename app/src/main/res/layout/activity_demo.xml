@@ -22,6 +22,14 @@
         android:backgroundTint="@color/teal_200"
         android:text="Upload Image" />
 
+    <Button
+        android:id="@+id/getImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Get Image" />
+
     <TextView
         android:id="@+id/imagePaths"
         android:layout_width="match_parent"

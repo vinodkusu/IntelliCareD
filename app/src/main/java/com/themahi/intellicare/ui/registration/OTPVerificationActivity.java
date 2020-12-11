@@ -10,7 +10,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.themahi.intellicare.R;
-import com.themahi.intellicare.Utils;
+import com.themahi.intellicare.utils.Utils;
 import com.themahi.intellicare.databinding.ActivityOtpVerificationBinding;
 
 public class OTPVerificationActivity extends AppCompatActivity implements View.OnClickListener {
