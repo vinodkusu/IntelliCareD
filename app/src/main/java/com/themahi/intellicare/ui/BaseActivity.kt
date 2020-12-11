@@ -1,9 +1,10 @@
-package com.themahi.intellicare
+package com.themahi.intellicare.ui
 
 import android.content.DialogInterface
 import android.util.Log
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import com.themahi.intellicare.R
 
 abstract class BaseActivity : AppCompatActivity() {
 

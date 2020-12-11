@@ -1,4 +1,4 @@
-package com.themahi.intellicare
+package com.themahi.intellicare.utils
 
 import android.content.Context
 import android.text.TextUtils

@@ -27,9 +27,9 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.IntelliCare">
         <activity android:name=".ui.DemoActivity"></activity>
-        <activity android:name=".BaseActivity" />
+        <activity android:name=".ui.BaseActivity" />
         <activity
-            android:name=".SplashActivity"
+            android:name=".ui.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.IntelliCare.Fullscreen">
@@ -67,11 +67,6 @@
             android:name=".ui.visit.CreateVisitActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.IntelliCare.Fullscreen" />
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/app_name"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.IntelliCare.NoActionBar" />
         <activity
             android:name=".ui.videocall.VideoChatActivity"
             android:screenOrientation="portrait"

@@ -3,7 +3,6 @@ package com.themahi.intellicare.ui
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.os.Bundle
-import android.util.Log
 import android.view.View
 import android.webkit.MimeTypeMap
 import androidx.lifecycle.Observer
@@ -13,12 +12,10 @@ import com.github.dhaval2404.imagepicker.ImagePicker.Companion.getError
 import com.github.dhaval2404.imagepicker.ImagePicker.Companion.getFile
 import com.github.dhaval2404.imagepicker.ImagePicker.Companion.getFilePath
 import com.github.dhaval2404.imagepicker.ImagePicker.Companion.with
-import com.themahi.intellicare.BaseActivity
-import com.themahi.intellicare.ImageViewModel
+import com.themahi.intellicare.model.ImageViewModel
 import com.themahi.intellicare.R
-import com.themahi.intellicare.Utils
+import com.themahi.intellicare.utils.Utils
 import com.themahi.intellicare.databinding.ActivityDemoBinding
-import com.themahi.intellicare.net.ImageWorker
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

@@ -1,11 +1,10 @@
-package com.themahi.intellicare
+package com.themahi.intellicare.ui
 
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
 import com.themahi.intellicare.databinding.ActivitySplashBinding
-import com.themahi.intellicare.ui.DemoActivity
 
 /**
  * Splash Screen

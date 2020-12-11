@@ -1,4 +1,4 @@
-package com.themahi.intellicare
+package com.themahi.intellicare.model
 
 import android.util.Log
 import androidx.lifecycle.LiveData

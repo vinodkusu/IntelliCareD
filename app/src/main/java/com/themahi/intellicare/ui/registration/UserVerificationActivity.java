@@ -9,10 +9,9 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.DatePicker;
 
-import com.themahi.intellicare.BaseActivity;
-import com.themahi.intellicare.MainActivity;
 import com.themahi.intellicare.R;
 import com.themahi.intellicare.databinding.ActivityUserVerificationBinding;
+import com.themahi.intellicare.ui.BaseActivity;
 import com.themahi.intellicare.ui.form.UserFormActivity;
 import com.themahi.intellicare.ui.landing.UserOptionsActivity;
 
@@ -65,7 +64,7 @@ public class UserVerificationActivity extends BaseActivity implements View.OnCli
     private void validateDetailsAndSubmit() {
         String dob = binding.etDOB.getText().toString().trim();
         String lastName = binding.etLastName.getText().toString().trim();
-        if(lastName.equalsIgnoreCase("unknown") || lastName.equalsIgnoreCase("test")) {
+        if (lastName.equalsIgnoreCase("unknown") || lastName.equalsIgnoreCase("test")) {
             showAlertDialog("Warning", "Sorry! We couldn't fetch details. Please create an account or enter correct credentials", "Create Account", "Cancel", true);
         } else {
             //move to next screen
