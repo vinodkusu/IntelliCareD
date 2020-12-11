@@ -1,5 +1,6 @@
 package com.themahi.intellicare.model;
 
+/*This is java version data class*/
 public class VisitDetails {
     private String doctor;
     private String date;
